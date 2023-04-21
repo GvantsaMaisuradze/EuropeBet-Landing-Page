@@ -1,0 +1,33 @@
+.nav-link__bar{
+    text-align: center;
+}
+.nav-links{
+    padding:15px 0;
+}
+.nav-link{
+    margin-right: 22px;
+}
+.nav-link a {
+    color: #bbb;
+    outline:none;
+    text-decoration: none;
+    transition: all .2s;
+}
+.nav-link a:hover{
+    color:#ffff;
+}
+.nav-link__bar ul li{
+    display: block;
+    position: relative;
+}
+.nav-link__bar ul li:hover::after {
+    content: "";
+    position: absolute;
+    top:13px;
+    background: #EF5A21;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    left:calc(100% +  8px);
+    
+}

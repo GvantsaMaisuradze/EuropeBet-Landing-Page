@@ -1,0 +1,36 @@
+.btn{
+    display:inline-block;
+    color:#FFFF;
+    background-color:#EF5A21;
+    border-radius:3px;
+    position:relative;
+    
+}
+.btn:hover,
+.btn:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+.registration-btn__first{
+    background:none;
+}
+/* .hover{
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #52525240;
+    transition: all .15s ease;
+}
+.hover-warapper:hover{
+    position:absolute;
+    transform: translate(24.975px, 38.55px);
+   
+} */
+
+
+/* </style>
+<style>@font-face{font-family:november-regular;src:url(/assets/fonts/november/NovemberGeLC-Regular.woff2) format("woff2"),url(/assets/fonts/november/NovemberGeLC-Regular.ttf) format("truetype")}
+html,body,div,img{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+body{line-height:1}body{min-width:1024px;font-family:november-regular,Arial}
+</style> */

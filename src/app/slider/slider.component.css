@@ -1,0 +1,27 @@
+.carousel-inner{
+    border-radius: 10px;
+    position:relative;
+}
+.carousel-indicators{
+    position:absolute;
+    width: 83%;
+    height: 60px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 100;
+}
+.carousel-indicators button{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1px solid rgb(255,255,255);
+    margin: 2px 5px;
+    cursor: pointer;
+    transition: background-color .15s ease;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    width:5%;
+}
