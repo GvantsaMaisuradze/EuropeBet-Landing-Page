@@ -11,6 +11,7 @@ import { SliderComponent } from './other components/slider/slider.component';
 import { CardsComponent } from './other components/cards/cards.component';
 import { SlotsModule } from './slots/slots.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LeaderboardComponent } from './other components/leaderboard/leaderboard.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +21,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HeaderComponent,
     SliderComponent,
     CardsComponent,
+    LeaderboardComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     SlotsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+  ],
+  exports:[
   ],
   providers: [],
   bootstrap: [AppComponent]

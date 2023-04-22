@@ -1,5 +1,6 @@
 <ul class="nav nav-tabs justify-content-between">
     <li *ngFor="let tab of tabs" class="nav-item col-md-4">
+      <p class="nav-subtitle">{{tab.tabSubtitle}}</p>
       <a class="nav-link" href="#"
       (click)="selectTab(tab)"
       [ngClass]="{'hover:.text-danger': tab.active}">

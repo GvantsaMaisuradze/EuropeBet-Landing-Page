@@ -5,10 +5,15 @@
     margin-bottom:30px;
 }
 .nav-link{
-   color:#FFFFFF;
-    padding:25px 45px;
+    color:#FFFFFF;
+    padding:0 45px 25px;
     text-align:center;
     border:none;
+}
+.nav-subtitle{
+    margin:0;
+    text-align:center;
+    padding:25px 0 4px;
 }
 .nav-item{
     border-radius:10px;

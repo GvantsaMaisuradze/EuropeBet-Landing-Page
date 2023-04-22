@@ -1,0 +1,29 @@
+.card{
+    background:#171718;
+    text-align:center;
+    color:#FFFFFF;
+}
+.card-header{
+    font-size:18px;
+    font-weight:600;
+    background:#2C3234;
+    padding:23px 0;
+}
+.card-sutitle{
+    text-align:center;
+}
+.card-title{
+    font-size:18px;
+    font-weight:500;
+    margin-right:12px;
+}
+.card-sutitle__img{
+    width: 24px;
+    height: 24px;
+}
+.table{
+    border:#25292B;
+}
+.table-names{
+    color:#7D7D7D;
+}

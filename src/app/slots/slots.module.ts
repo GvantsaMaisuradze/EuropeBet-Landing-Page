@@ -5,22 +5,22 @@ import { SharedModule } from '../shared/shared.module';
 import { CashGamesComponent } from './cash-games/cash-games.component';
 import { SpringSeriesComponent } from './spring-series/spring-series.component';
 import { FinalStageComponent } from './final-stage/final-stage.component';
-
-
+import { LeaderboardComponent } from '../other components/leaderboard/leaderboard.component';
 
 @NgModule({
   declarations: [
     SlotsModalComponent,
     CashGamesComponent,
     SpringSeriesComponent,
-    FinalStageComponent
+    FinalStageComponent,
   ],
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
+
   ],
   exports:[
-    SlotsModalComponent
+    SlotsModalComponent,
   ]
 })
 export class SlotsModule { }
