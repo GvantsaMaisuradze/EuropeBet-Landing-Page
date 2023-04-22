@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomePgComponent } from './view/home-pg/home-pg.component';
 import { FormsModule } from '@angular/forms';
-import { NavComponent } from './nav/nav.component';
-import { HeaderComponent } from './header/header.component';
-import { SliderComponent } from './slider/slider.component';
-import { CardsComponent } from './cards/cards.component';
+import { NavComponent } from './other components/nav/nav.component';
+import { HeaderComponent } from './other components/header/header.component';
+import { SliderComponent } from './other components/slider/slider.component';
+import { CardsComponent } from './other components/cards/cards.component';
+import { SlotsModule } from './slots/slots.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { CardsComponent } from './cards/cards.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    SlotsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

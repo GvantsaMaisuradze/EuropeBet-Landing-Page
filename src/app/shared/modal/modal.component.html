@@ -1,1 +1,28 @@
-<p>modal works!</p>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false">
+    <div class="modal-dialog  modal-dialog-scrollable">
+      <div class="modal-content">
+        <!-- Background -->
+        <div class="modal-background">
+          <img class="modal-background__img" src="assets/home-pg-images/first.jpeg" alt="">
+        </div>
+        <div class="container">
+            <!-- Title -->
+            <div class="modal-header">
+                <ng-content select="[heading]"></ng-content>
+                <!-- Modal close button -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                  &#x2715;
+                </button>
+            </div>
+              <div class="modal-body">
+                <ng-content></ng-content>
+              </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn fixed-btn">ითამაშე</button>
+        </div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,20 @@
+.nav-tabs{
+    background:#2C3234;
+    border:0;
+    border-radius:10px;
+    margin-bottom:30px;
+}
+.nav-link{
+   color:#FFFFFF;
+    padding:25px 45px;
+    text-align:center;
+    border:none;
+}
+.nav-item{
+    border-radius:10px;
+}
+.nav-item:hover{
+    background:#EF5A21;
+    box-shadow: 0 0 10px #EF5A21;
+    transform: scale(1.1);
+}

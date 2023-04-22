@@ -1,0 +1,19 @@
+.heading{
+    background:#25292B;
+    border-radius:50px;
+    font-size:15px;
+    padding: 7px 19px 8px 8px
+}
+.heading p{
+    margin-bottom:0;
+}
+.heading-selected{
+    background:#2C3234;
+    padding:5px 10px;
+    border-radius:50px;
+    margin-right: 12px;
+    font-size:13px;
+}
+.heading-date{
+    font-weight:bolder;
+}

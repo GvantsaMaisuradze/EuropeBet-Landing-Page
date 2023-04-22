@@ -23,7 +23,7 @@
 .nav-link__bar ul li:hover::after {
     content: "";
     position: absolute;
-    top:13px;
+    top:10px;
     background: #EF5A21;
     width: 5px;
     height: 5px;
