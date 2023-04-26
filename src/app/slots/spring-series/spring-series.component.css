@@ -1,0 +1,191 @@
+img{
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+p{
+    margin:0;
+}
+.card{
+    background:#171718;
+    text-align:center;
+    color:#FFFFFF;
+    font-size:14px;
+    margin-bottom:55px;
+    border: 5px solid #2C3234;
+    border-radius:20px;
+}
+.card-tournament{
+    background-image: url('/assets/images/promo-left-img.png'),url('/assets/images/promo-right-img.png');
+    background-repeat: no-repeat,no-repeat;
+    background-position: left bottom, right bottom;
+}
+.card-header{
+    font-size:18px;
+    font-weight:600;
+    background:#2C3234;
+    padding:23px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-title{
+    font-size:16px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+.card-sutitle__img{
+    width: 24px;
+    height: 24px;
+}
+.card-text a{
+    color:#EF5A21;
+}
+.card-text{
+    margin-bottom:20px;
+}
+.card-date__icon{
+    padding:4px 6px;
+    background:#EF5A21;
+    box-shadow: 0px 0px 10px #EF5A21;
+    margin-right:10px;
+    border-radius:4px;
+    border:0;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+.card-date__icon img{
+    width:20px;
+    height:20px;
+}
+.card-date{
+    width:191px;
+    align-items: center;
+    border:1px solid #EF5A21;
+    border-radius:6px;
+    box-shadow: 0px 0px 10px #EF5A21;
+    margin-bottom:10px;
+
+}
+.card-info{
+    font-size:13px;
+    color: #bbb;
+}
+.card-info__text:first-child{
+    margin:20px 0 10px;
+}
+.card-button{
+    margin-top:15px;
+}
+.btn{
+    background-color:#F05A22;
+    padding:6px 18px;
+}
+.card-button a{
+    text-decoration:none;
+    color:#FFFFFF;
+    font-size:15px;
+    font-weight:600;
+}
+.score{
+    border:1px solid #2C3234;
+    border-radius:20px;
+    align-items:center;
+    width:280px;
+    background: #1E2122;
+}
+.score span{
+    font-weight:600;
+    padding: 7px 0 10px 24px;
+}
+.score-img{
+    padding: 10px 12px;
+    background:#EF5A21;
+    border:0;
+    border-radius:50%;
+    margin-left:15px;
+}
+.score-img img{
+    width:16px;
+    height:16px;
+    
+}
+.leaderboard{
+    margin-top:20px;
+}
+.card-texts{
+    margin-bottom:11px;
+}
+.card-texts a{
+    color:#EF5A21;
+}
+.events-title{
+    font-size:18px;
+    margin-bottom:24px;
+}
+.event-item{
+    padding:29px;
+    background-image: url('/assets/images/tournament-bg.png');
+    background-repeat: no-repeat;
+}
+
+.event-item h6{
+    font-size:15px;
+}
+.event-item span{
+    font-size:24px;
+    color:#FFBE00;
+}
+.event-item p{
+    font-size:13px;
+    font-weight:600;
+    margin-bottom:5px;
+}
+.event-item__right__text{
+    background:#B78648;
+    border-radius:30px;
+    border-bottom-right-radius: 0px;
+}
+.event-item__right__text p{
+    font-size:14px;
+    margin-bottom:0;
+    padding:4px 23px;
+}
+.event-item__left{
+    margin-right:30px;
+}
+.event-items__bottom{
+    background-image: url('/assets/images/main-bg.png');
+    background-repeat: no-repeat;
+    padding:24px 0 20px;
+}
+.event-bottom__left h6{
+    font-size:22px;
+    font-weight:700;
+}
+.event-bottom__left span{
+    font-size:26px;
+    font-weight:600;
+    color:#FFBE00;
+}
+.event-bottom__left {
+    margin-right: 67px;
+
+}
+.event-bottom__right p{
+    font-size:16px;
+    font-weight:600;
+    margin-bottom:11px;
+
+}
+.event-bottom__right__text{
+    background:#D7C860;
+    border-radius:30px;
+    border-bottom-right-radius: 0px;
+}
+.event-bottom__right__text p{
+    color:#094B3D;
+    font-size:15px;
+    margin-bottom:0;
+    padding:5px 23px;
+}

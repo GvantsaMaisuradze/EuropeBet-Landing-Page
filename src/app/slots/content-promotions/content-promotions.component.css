@@ -1,0 +1,33 @@
+.content-promotions{
+    text-align:left;
+    margin-bottom:130px;
+}
+.content-promotions__title{
+    font-size:18px;
+    font-weight:500;
+    margin-bottom:32px;
+}
+.content-promotions__items{
+
+}
+.content-promotions__item{
+    margin-right:16px;
+    
+}
+.card{
+    width:233px;
+    height:272px;
+    border-radius:0;
+}
+.card-title{
+    font-size:14px;
+    font-weight:500;
+}
+.card-text small{
+    font-size:14px;
+}
+img{
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+}

@@ -1,6 +1,9 @@
 .modal{
     color:#FFFFFF;
 }
+.modal-body{
+    overflow:hidden;
+}
 .modal-content{
     background:#1C1D1E;
     border-radius:15px;
@@ -10,7 +13,13 @@
 .fixed-btn{
     background-color:#F05A22;
     padding:8px 40px;
+    
+}
+.fixed-btn a{
+    text-decoration:none;
     color:#FFFFFF;
+    font-size:15px;
+    font-weight:600;
 }
 .modal-header{
     position:absolute;
