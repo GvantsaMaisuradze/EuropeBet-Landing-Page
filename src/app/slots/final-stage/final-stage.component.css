@@ -115,13 +115,19 @@ img{
     box-shadow: 0px 0px 10px #EF5A21;
     border-radius: 2px;
 }
-.win-item__left{
+.win-item__left,
+.win-item__right{
     background:#1E2122;
     padding:28px;
     background-image:url("/assets/images/poker-item-1-ticket-icon.png");
     background-repeat:no-repeat;
     background-position: top right;
     border-radius:15px;
+    text-align:left;
+    margin-bottom:20px;
+}
+.win-item__left{
+    margin-right:15px;
 }
 .win-item__title{
     font-size:16px;
@@ -129,4 +135,30 @@ img{
 .win-item__subtitle{
     font-size:14px;
     margin:0;
+}
+.win-item__lastsubtitle{
+    margin-bottom:16px;
+}
+.key__item{
+    font-size:13px;
+    font-weight:500;
+    background:#1E2122;
+    border:2px solid #2C3234;
+    border-radius:40px;
+    padding:16px 37px 16px 0 ;
+    margin-bottom:1px;
+}
+.key__item p{
+    margin:0;
+    font-weight:600;
+    font-size:14px;
+}
+.key-num{
+    margin:0 20px;
+}
+.key__item span{
+    background:#2C3234;
+    border-radius:50%;
+    padding:7px 12px;
+    box-shadow: 0 0 5px #2C3234;
 }

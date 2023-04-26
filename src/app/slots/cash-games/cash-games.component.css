@@ -6,6 +6,7 @@
     margin-bottom:55px;
     border: 5px solid #2C3234;
     border-radius:20px;
+    position:relative;
 }
 .card-header{
     font-size:18px;
@@ -15,6 +16,16 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+.card::before{
+    content: "";
+    position: absolute;
+    border-top: 5px solid #EF5A21;
+    width: 300px;
+    left: 291px;
+    box-shadow: 0px 0px 10px #EF5A21;
+    border-radius: 2px;
+}
+
 .card-sutitle{
     text-align:center;
 }
