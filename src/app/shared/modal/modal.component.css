@@ -22,8 +22,9 @@
     font-weight:600;
 }
 .modal-header{
-    position:absolute;
-    top:0;
+    position: fixed;
+    top: 25px;
+    z-index: 1000;
     border:none;
 }
 .modal-footer{
@@ -31,6 +32,10 @@
     justify-content: center;
     border-top:3px solid #F05A22;
     padding:14px 0;
+    width: 940px;
+    position: fixed;
+    bottom: 16px;
+    background:#171718;
 }
 .modal-dialog{
     max-width:940px;
@@ -50,3 +55,5 @@
     height: 100%;
     object-fit: cover;
 }
+
+
