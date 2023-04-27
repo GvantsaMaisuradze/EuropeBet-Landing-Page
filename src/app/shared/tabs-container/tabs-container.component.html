@@ -1,11 +1,12 @@
 <ul class="nav nav-tabs justify-content-between">
     <li *ngFor="let tab of tabs" class="nav-item col-md-4">
-      <p class="nav-subtitle">{{tab.tabSubtitle}}</p>
-      <a class="nav-link" href="#"
-      (click)="selectTab(tab)"
-      [ngClass]="{}">
-      {{tab.tabTitle}}
-    </a>
+      <a (click)="selectTab(tab)"href="/">
+        <p class="nav-subtitle">{{tab.tabSubtitle}}</p>
+        <p class="nav-link"
+        [ngClass]="{}">
+        {{tab.tabTitle}}
+      </p>
+      </a>
     </li>
   </ul>
 <ng-content></ng-content>
